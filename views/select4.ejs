@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Show message</title>
+</head>
+<body>
+  <h2>ゲームの種類</h2>
+  <table>
+      <% for( data of row ) { %>
+        <tr>
+            <td><%= data.id + ' : ' + data.name + ':' + data.name2 %></td>
+        </tr>
+      <% } %>
+  </table>
+</body>
+</html>
